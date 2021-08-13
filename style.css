@@ -1,0 +1,48 @@
+body {
+  margin: 36px;
+  text-align: center;
+  background-color: rgb(10, 50, 85);
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 2.8rem;
+  text-align: center;
+  margin: 3.5rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid #ffc8d1;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1.5rem;
+  margin: .75rem;
+  border-radius: 5px;
+  background-color: aliceblue;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button:hover {
+  background-color: #cfe1f3
+}
+
+p {
+  color: #ffd3e2;
+  margin: .75rem 3.5rem;
+  padding: .7rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+p:first-of-type {
+  border-top: 1px solid salmon;
+  margin-top: 4rem;
+}
+
+p:last-of-type {
+  border-bottom: 1px solid salmon;
+  margin-bottom: 4rem;
+}
